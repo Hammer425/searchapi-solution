@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages ={"com.eu.search.controller","com.eu.search.serviceImpl"})
+@ComponentScan(basePackages ={"com.eu.search.controller","com.eu.search.handler"})
 public class SearchWebApplication {
 
 	public static void main(String[] args) {
